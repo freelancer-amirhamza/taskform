@@ -21,8 +21,6 @@ function App() {
     setFormData(initialFormData);
   };
 
-  
-
   const isFormValid = () => {
     return Object.keys(formData)
       .map((key) => formData[key] !== "")
